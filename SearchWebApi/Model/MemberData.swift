@@ -5,7 +5,7 @@
 //  Created by User3 on 2018/03/08.
 //  Copyright © 2018年 テストアプリ. All rights reserved.
 //
-
+//test
 import Foundation
 
 class MemberData: NSObject, NSCoding {
