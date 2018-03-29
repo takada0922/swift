@@ -1,0 +1,6 @@
+framework module Pods_SearchWebApi {
+  umbrella header "Pods-SearchWebApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

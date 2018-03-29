@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F09DFAF2050C02300E2EDC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFAE2050C02300E2EDC2 /* AppDelegate.swift */; };
+		1F09DFB62050C02300E2EDC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F09DFB52050C02300E2EDC2 /* Assets.xcassets */; };
+		1F09DFB92050C02300E2EDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F09DFB72050C02300E2EDC2 /* LaunchScreen.storyboard */; };
+		1F09DFC72050C18B00E2EDC2 /* SuperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFC62050C18B00E2EDC2 /* SuperVC.swift */; };
+		1F09DFC92050C1A100E2EDC2 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFC82050C1A100E2EDC2 /* Globals.swift */; };
+		1F09DFCB2050C21500E2EDC2 /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFCA2050C21500E2EDC2 /* StartVC.swift */; };
+		1F09DFCD2050C23200E2EDC2 /* MemberRegistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFCC2050C23200E2EDC2 /* MemberRegistVC.swift */; };
+		1F09DFD02050C32500E2EDC2 /* MemberData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFCF2050C32500E2EDC2 /* MemberData.swift */; };
+		1F09DFD22050C34300E2EDC2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFD12050C34300E2EDC2 /* LoginVC.swift */; };
+		1F09DFD42050C35E00E2EDC2 /* SearchTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFD32050C35E00E2EDC2 /* SearchTableVC.swift */; };
+		1F09DFD62050C38600E2EDC2 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFD52050C38600E2EDC2 /* ItemTableViewCell.swift */; };
+		1F09DFD82050C3AA00E2EDC2 /* ItemSearchResultSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFD72050C3AA00E2EDC2 /* ItemSearchResultSet.swift */; };
+		1F09DFDA2050C3CE00E2EDC2 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09DFD92050C3CE00E2EDC2 /* WebVC.swift */; };
+		1F09DFDE2050C52500E2EDC2 /* MemberRegistVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F09DFDD2050C52500E2EDC2 /* MemberRegistVC.storyboard */; };
+		1F09DFE02050C53E00E2EDC2 /* LoginVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F09DFDF2050C53E00E2EDC2 /* LoginVC.storyboard */; };
+		1F09DFE22050C56000E2EDC2 /* SearchTableVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F09DFE12050C56000E2EDC2 /* SearchTableVC.storyboard */; };
+		1F09DFE42050C57A00E2EDC2 /* WebVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F09DFE32050C57A00E2EDC2 /* WebVC.storyboard */; };
+		1F09DFE52050D1D700E2EDC2 /* StartVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F09DFE72050D1D700E2EDC2 /* StartVC.storyboard */; };
+		4CCDB93E450CB7CEDD0DDF9C /* Pods_SearchWebApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902A99F678077F28205316B1 /* Pods_SearchWebApi.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F09DFAB2050C02300E2EDC2 /* SearchWebApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchWebApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F09DFAE2050C02300E2EDC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F09DFB52050C02300E2EDC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F09DFB82050C02300E2EDC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F09DFBA2050C02300E2EDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F09DFC62050C18B00E2EDC2 /* SuperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperVC.swift; sourceTree = "<group>"; };
+		1F09DFC82050C1A100E2EDC2 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		1F09DFCA2050C21500E2EDC2 /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartVC.swift; path = SearchWebApi/StartVC.swift; sourceTree = SOURCE_ROOT; };
+		1F09DFCC2050C23200E2EDC2 /* MemberRegistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberRegistVC.swift; sourceTree = "<group>"; };
+		1F09DFCF2050C32500E2EDC2 /* MemberData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberData.swift; sourceTree = "<group>"; };
+		1F09DFD12050C34300E2EDC2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1F09DFD32050C35E00E2EDC2 /* SearchTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableVC.swift; sourceTree = "<group>"; };
+		1F09DFD52050C38600E2EDC2 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		1F09DFD72050C3AA00E2EDC2 /* ItemSearchResultSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSearchResultSet.swift; sourceTree = "<group>"; };
+		1F09DFD92050C3CE00E2EDC2 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		1F09DFDD2050C52500E2EDC2 /* MemberRegistVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MemberRegistVC.storyboard; sourceTree = "<group>"; };
+		1F09DFDF2050C53E00E2EDC2 /* LoginVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginVC.storyboard; sourceTree = "<group>"; };
+		1F09DFE12050C56000E2EDC2 /* SearchTableVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchTableVC.storyboard; sourceTree = "<group>"; };
+		1F09DFE32050C57A00E2EDC2 /* WebVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebVC.storyboard; sourceTree = "<group>"; };
+		1F09DFE62050D1D700E2EDC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StartVC.storyboard; sourceTree = "<group>"; };
+		1F903739205A3E3D006DF97A /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		67726E8B0F47CE9FAD466BF5 /* Pods-SearchWebApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchWebApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchWebApi/Pods-SearchWebApi.debug.xcconfig"; sourceTree = "<group>"; };
+		902A99F678077F28205316B1 /* Pods_SearchWebApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchWebApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B917EE5E8711ADEF0023B9D2 /* Pods-SearchWebApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchWebApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchWebApi/Pods-SearchWebApi.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F09DFA82050C02300E2EDC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCDB93E450CB7CEDD0DDF9C /* Pods_SearchWebApi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F09DFA22050C02300E2EDC2 = {
+			isa = PBXGroup;
+			children = (
+				1F09DFAD2050C02300E2EDC2 /* SearchWebApi */,
+				1F09DFAC2050C02300E2EDC2 /* Products */,
+				EF39BB1D1F3C875805BF2D52 /* Pods */,
+				527EB0414F8079E0B836B095 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F09DFAC2050C02300E2EDC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F09DFAB2050C02300E2EDC2 /* SearchWebApi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F09DFAD2050C02300E2EDC2 /* SearchWebApi */ = {
+			isa = PBXGroup;
+			children = (
+				1F09DFCE2050C2C300E2EDC2 /* Model */,
+				1F09DFC52050C11600E2EDC2 /* Storyboard */,
+				1F09DFC22050C07400E2EDC2 /* ViewController */,
+				1F09DFC02050C05200E2EDC2 /* Util */,
+				1F09DFB52050C02300E2EDC2 /* Assets.xcassets */,
+				1F09DFAE2050C02300E2EDC2 /* AppDelegate.swift */,
+				1F09DFB72050C02300E2EDC2 /* LaunchScreen.storyboard */,
+				1F09DFBA2050C02300E2EDC2 /* Info.plist */,
+			);
+			path = SearchWebApi;
+			sourceTree = "<group>";
+		};
+		1F09DFC02050C05200E2EDC2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1F09DFD72050C3AA00E2EDC2 /* ItemSearchResultSet.swift */,
+				1F09DFC62050C18B00E2EDC2 /* SuperVC.swift */,
+				1F09DFC82050C1A100E2EDC2 /* Globals.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1F09DFC22050C07400E2EDC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F09DFCA2050C21500E2EDC2 /* StartVC.swift */,
+				1F09DFCC2050C23200E2EDC2 /* MemberRegistVC.swift */,
+				1F09DFD12050C34300E2EDC2 /* LoginVC.swift */,
+				1F09DFD32050C35E00E2EDC2 /* SearchTableVC.swift */,
+				1F09DFD92050C3CE00E2EDC2 /* WebVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1F09DFC52050C11600E2EDC2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1F09DFE72050D1D700E2EDC2 /* StartVC.storyboard */,
+				1F09DFDD2050C52500E2EDC2 /* MemberRegistVC.storyboard */,
+				1F09DFDF2050C53E00E2EDC2 /* LoginVC.storyboard */,
+				1F09DFE12050C56000E2EDC2 /* SearchTableVC.storyboard */,
+				1F09DFE32050C57A00E2EDC2 /* WebVC.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1F09DFCE2050C2C300E2EDC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F09DFCF2050C32500E2EDC2 /* MemberData.swift */,
+				1F09DFD52050C38600E2EDC2 /* ItemTableViewCell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		527EB0414F8079E0B836B095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F903739205A3E3D006DF97A /* SafariServices.framework */,
+				902A99F678077F28205316B1 /* Pods_SearchWebApi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF39BB1D1F3C875805BF2D52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67726E8B0F47CE9FAD466BF5 /* Pods-SearchWebApi.debug.xcconfig */,
+				B917EE5E8711ADEF0023B9D2 /* Pods-SearchWebApi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F09DFAA2050C02300E2EDC2 /* SearchWebApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F09DFBD2050C02300E2EDC2 /* Build configuration list for PBXNativeTarget "SearchWebApi" */;
+			buildPhases = (
+				36FE149692C0772C646D6BDE /* [CP] Check Pods Manifest.lock */,
+				1F09DFA72050C02300E2EDC2 /* Sources */,
+				1F09DFA82050C02300E2EDC2 /* Frameworks */,
+				1F09DFA92050C02300E2EDC2 /* Resources */,
+				87DBA0821E74D3A38EB586AF /* [CP] Embed Pods Frameworks */,
+				D0D3EEADEE449271B6972767 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchWebApi;
+			productName = SearchWebApi;
+			productReference = 1F09DFAB2050C02300E2EDC2 /* SearchWebApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F09DFA32050C02300E2EDC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "テストアプリ";
+				TargetAttributes = {
+					1F09DFAA2050C02300E2EDC2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1F09DFA62050C02300E2EDC2 /* Build configuration list for PBXProject "SearchWebApi" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F09DFA22050C02300E2EDC2;
+			productRefGroup = 1F09DFAC2050C02300E2EDC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F09DFAA2050C02300E2EDC2 /* SearchWebApi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F09DFA92050C02300E2EDC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F09DFE52050D1D700E2EDC2 /* StartVC.storyboard in Resources */,
+				1F09DFB92050C02300E2EDC2 /* LaunchScreen.storyboard in Resources */,
+				1F09DFB62050C02300E2EDC2 /* Assets.xcassets in Resources */,
+				1F09DFE02050C53E00E2EDC2 /* LoginVC.storyboard in Resources */,
+				1F09DFDE2050C52500E2EDC2 /* MemberRegistVC.storyboard in Resources */,
+				1F09DFE22050C56000E2EDC2 /* SearchTableVC.storyboard in Resources */,
+				1F09DFE42050C57A00E2EDC2 /* WebVC.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36FE149692C0772C646D6BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchWebApi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87DBA0821E74D3A38EB586AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SearchWebApi/Pods-SearchWebApi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftCop/SwiftCop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchWebApi/Pods-SearchWebApi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D3EEADEE449271B6972767 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchWebApi/Pods-SearchWebApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F09DFA72050C02300E2EDC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F09DFCB2050C21500E2EDC2 /* StartVC.swift in Sources */,
+				1F09DFD02050C32500E2EDC2 /* MemberData.swift in Sources */,
+				1F09DFD62050C38600E2EDC2 /* ItemTableViewCell.swift in Sources */,
+				1F09DFD42050C35E00E2EDC2 /* SearchTableVC.swift in Sources */,
+				1F09DFD22050C34300E2EDC2 /* LoginVC.swift in Sources */,
+				1F09DFC92050C1A100E2EDC2 /* Globals.swift in Sources */,
+				1F09DFC72050C18B00E2EDC2 /* SuperVC.swift in Sources */,
+				1F09DFD82050C3AA00E2EDC2 /* ItemSearchResultSet.swift in Sources */,
+				1F09DFDA2050C3CE00E2EDC2 /* WebVC.swift in Sources */,
+				1F09DFCD2050C23200E2EDC2 /* MemberRegistVC.swift in Sources */,
+				1F09DFAF2050C02300E2EDC2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F09DFB72050C02300E2EDC2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F09DFB82050C02300E2EDC2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F09DFE72050D1D700E2EDC2 /* StartVC.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F09DFE62050D1D700E2EDC2 /* Base */,
+			);
+			name = StartVC.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F09DFBB2050C02300E2EDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F09DFBC2050C02300E2EDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F09DFBE2050C02300E2EDC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67726E8B0F47CE9FAD466BF5 /* Pods-SearchWebApi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SearchWebApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.Myapp.SearchWebApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F09DFBF2050C02300E2EDC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B917EE5E8711ADEF0023B9D2 /* Pods-SearchWebApi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SearchWebApi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.Myapp.SearchWebApi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F09DFA62050C02300E2EDC2 /* Build configuration list for PBXProject "SearchWebApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F09DFBB2050C02300E2EDC2 /* Debug */,
+				1F09DFBC2050C02300E2EDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F09DFBD2050C02300E2EDC2 /* Build configuration list for PBXNativeTarget "SearchWebApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F09DFBE2050C02300E2EDC2 /* Debug */,
+				1F09DFBF2050C02300E2EDC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F09DFA32050C02300E2EDC2 /* Project object */;
+}
